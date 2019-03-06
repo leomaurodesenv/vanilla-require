@@ -1,6 +1,6 @@
 {
   "name": "vanilla-require",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to import Vanilla JS Classes as Node.js Modules",
   "main": "lib.js",
   "scripts": {
