@@ -6,10 +6,10 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b577b1fd54e7442bb6adf61b1c5ffb7c)](https://www.codacy.com/app/leomaurodesenv/vanilla-require?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=leomaurodesenv/vanilla-require&amp;utm_campaign=Badge_Grade)
 
 ---
-The Node and npm have an incredible system for the inclusion of packages, made by `require`.
-However, to use packages one must export their modules, through `module.exports`. Yet, it is not possible to use these packages on simple web pages because the web browser does not recognize the `module.exports`.  
+The Node.js and npm have an incredible system for the inclusion of packages, made by `require`.
+However, for use packages one must export their modules, through `module.exports`. Yet, it is not possible to use these packages on simple web classes because the web browser does not recognize the `module.exports`.  
 
-This package allows you to develop simple classes to the web and export them to Node script as a module. In this sense, you can use your classes in the web browser and in the Node script, using the `vanilla-require` package.  
+This package allows you to develop simple classes to the web and export them to Node.js script as a module. In this sense, you can use your classes in the web browser (pure Javascript) and in the Node.js script, using the `vanilla-require` package.  
 
 [Vanilla JS](http://vanilla-js.com/): pure Javascript.  
 
