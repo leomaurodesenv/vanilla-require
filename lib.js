@@ -1,5 +1,5 @@
 /* Requires */
-const fs = require('fs');
+const fs = require("fs");
 
 /**
  * @module VanillaRequire
@@ -19,13 +19,13 @@ class VanillaRequire {
      * Constructor of class
      * @var {String} path       - Directory path: __dirname
      * @var {String} spliter    - Chacter that split the path
-                                  in Linux SO: '/'
-                                  in Windows SO: '\\'
+                                  in Linux SO: "/"
+                                  in Windows SO: "\\"
      * @instance
      * @access public
      * @returns {this}
      */
-    constructor(path, spliter='/') {
+    constructor(path, spliter="/") {
         this.path = path;
         this.spliter = spliter;
     }
@@ -63,10 +63,10 @@ class VanillaRequire {
     require(filePath) {
         try{
             var jsFile = this._read(filePath);
-            return eval('('+jsFile+')');
+            return eval("("+jsFile+")");
         }
         catch(e){ 
-            console.error('Error: file not exist\n - '+this._getPath(filePath));
+            console.error("Error: file not exist\n - "+this._getPath(filePath));
             return null; 
         }
     }
@@ -74,6 +74,6 @@ class VanillaRequire {
 }
 
 /* Module this class */
-module.exports = function(path, spliter='/') {
+module.exports = function(path, spliter="/") {
     return new VanillaRequire(path, spliter);
 };
