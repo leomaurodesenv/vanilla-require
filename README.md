@@ -1,6 +1,9 @@
 # vanilla-require
 
-Links: [npm](https://www.npmjs.com/package/vanilla-require) and [Github](https://github.com/leomaurodesenv/vanilla-require).   
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md)
+[![npm](https://img.shields.io/badge/Code-npm-yellow.svg)](https://www.npmjs.com/package/vanilla-require)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-yellow.svg)](https://github.com/leomaurodesenv/vanilla-require)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b577b1fd54e7442bb6adf61b1c5ffb7c)](https://www.codacy.com/app/leomaurodesenv/vanilla-require?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=leomaurodesenv/vanilla-require&amp;utm_campaign=Badge_Grade)
 
 ---
 The Node and npm have an incredible system for the inclusion of packages, made by `require`.
